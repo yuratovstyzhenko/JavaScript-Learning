@@ -1,0 +1,11 @@
+{
+	"undef": true,
+	"maxlen": 80,
+	"trailingcomma": true,
+	"curly": true,
+	"strict": false,
+	"browser": true,
+	"devel": true,
+	"jquery": true,
+	"esversion": 6
+}
