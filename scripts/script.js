@@ -1,2 +1,4 @@
-let ask = prompt("1111111", "");
+  'use strict';
+
+let ask = prompt("Hello", "");
 console.log(typeof(ask));
