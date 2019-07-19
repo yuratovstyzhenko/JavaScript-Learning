@@ -83,4 +83,14 @@
   // } while (num < 2);
 
   appData.moneyPerDay = appData.budjet / 30;
-  alert(appData.moneyPerDay);
+  alert("Бюджет на один день составляет: " + appData.moneyPerDay + " грн.");
+  
+  if (appData.moneyPerDay < 100) {
+      console.log("Низкаий уровень достатка");
+  } else if (appData.moneyPerDay > 100 && appData.moneyPerDay < 2000) {
+      console.log("Средний уровень достатка");
+  } else if (appData.moneyPerDay > 2000) {
+      console.log("Высокий уровень достатка");
+  } else {
+      console.log("Произошла ошибка !");
+  }
