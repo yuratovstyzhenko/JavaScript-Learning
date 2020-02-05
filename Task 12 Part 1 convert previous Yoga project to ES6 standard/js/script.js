@@ -183,7 +183,7 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-    const webTimer = new Timer('timer', '2020-02-1');
+    const webTimer = new Timer('timer', '2020-02-04');
     webTimer.setClock();
 
     // Modal Window 
